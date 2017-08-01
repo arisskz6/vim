@@ -16,7 +16,6 @@ call vundle#end()			" required
 filetype plugin indent on   " required
 " Define bundles via Github repos
 Bundle "Lokaltog/vim-powerline"
-
 set nu
 color desert
 syntax on
@@ -24,3 +23,4 @@ set smartindent
 set tabstop=4
 set incsearch
 set hlsearch
+:PluginInstall
